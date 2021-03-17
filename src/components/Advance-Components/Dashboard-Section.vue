@@ -47,10 +47,16 @@ export default defineComponent({
 }
 
 .CardListSection {
-  margin-top: 36px;
+  margin-top: 10px;
 }
 
 .ButtonSection {
-  margin: 40px 0 40px 0;
+  margin: 58px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ButtonSection {
+    margin: 58px 28px 58px 0;
+  }
 }
 </style>

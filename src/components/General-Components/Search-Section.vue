@@ -30,6 +30,7 @@ export default defineComponent({
   &__Text {
     font-size: 1rem;
     font-weight: bold;
+    letter-spacing: -0.3px;
   }
   &__Input {
     width: 70%;
@@ -41,7 +42,8 @@ export default defineComponent({
     font-size: 1.25rem;
     transition: border-color 0.1s ease-out;
     padding: 16px;
-    margin-left: 25px;
+    margin-left: 14px;
+    margin-top: 3px;
     &:focus {
       border-color: var(--green-1);
     }

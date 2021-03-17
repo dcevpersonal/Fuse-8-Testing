@@ -78,7 +78,7 @@ export default defineComponent({
   display: inline-flex;
   width: calc(95% + 22px);
   flex-wrap: wrap;
-  margin: -22px 0 0 -22px;
+  margin: -37px 0 0 -22px;
   justify-content: center;
   align-items: center;
 }

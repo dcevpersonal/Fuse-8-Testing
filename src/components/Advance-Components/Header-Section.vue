@@ -21,9 +21,15 @@ export default defineComponent({
   &__Text {
     font-size: 2.25rem;
     color: var(--green-1);
+    padding: 38px;
     font-weight: bold;
-    padding: 45px 0 45px 0;
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .HeaderSection {
+    padding: 0 20px 0 0;
   }
 }
 </style>

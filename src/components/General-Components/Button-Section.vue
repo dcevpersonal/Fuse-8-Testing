@@ -1,15 +1,22 @@
 <template>
   <button class="ButtonSection">
     <h2 class="ButtonSection__Text">{{ text }}</h2>
-    <div class="ButtonSection__Arrow" v-if="icon === 'Arrow'"></div>
+    <IconSection
+      class="ButtonSection__Arrow"
+      v-if="icon === 'Arrow'"
+      type="Arrow"
+    />
   </button>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
+import IconSection from "@/components/General-Components/Icon-Section.vue";
 export default defineComponent({
   name: "Button-Section",
+  components: {
+    IconSection
+  },
   props: {
     text: {
       default: "See more",
@@ -46,15 +53,13 @@ export default defineComponent({
   }
   &__Text {
     font-size: 1rem;
+    letter-spacing: 0.3px;
     font-weight: bold;
   }
   &__Arrow {
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    margin-left: 5px;
+    width: 4.04px;
+    height: 14.83px;
+    padding-left: 8px;
   }
 }
 </style>

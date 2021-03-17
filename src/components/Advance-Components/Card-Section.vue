@@ -76,8 +76,7 @@ export default defineComponent({
   max-width: 379px;
   cursor: pointer;
   background: var(--grey-1);
-  margin-bottom: 22px;
-  margin: 22px 0 0 22px;
+  margin: 37px 0 0 22px;
   transition: all 0.2s ease-out;
   &:active {
     transform: scale(0.95);
@@ -112,7 +111,7 @@ export default defineComponent({
       background: var(--blue-1);
       font-size: 0.75rem;
       font-weight: bold;
-      padding: 8px;
+      padding: 11px;
       align-items: center;
       justify-content: center;
       &--Orange {
