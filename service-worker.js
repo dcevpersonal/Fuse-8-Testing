@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.059a4adcb1befede70ab6ccb1238e009.js"
+  "precache-manifest.2ee1c39a5b0c35dada68154de360b71e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fuse8"});
